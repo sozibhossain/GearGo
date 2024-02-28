@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 .navber{
-    margin-left: 100px;
-    margin-top: 192px;
-    
-    
-    
-   
+   height: 100%;
+ 
 }
 .container-1{
-    width:400px;
     font-size: 20px;
     background-color: aqua;
     height:100vh;
+      min-width:256px;
+      position:fixed;
+      width:32%;
+    
    
+}
+.list{
+    margin-top: 192px;
+    margin-left: 100px;
 }
 ul li{
     list-style: none;
@@ -27,6 +30,66 @@ ul li a{
     text-decoration: none;
     color: #E15352;
 }
+
+#check{
+    display: none;
+}
+
+.icons{
+    position: absolute;
+    font-size: 1.5rem;
+    color: black;
+    left:5%;
+    top:5%;
+    display: none;
+
+}
+
+@media (max-width: 1173px) {
+    .icons{
+        display: inline-flex;
+    }
+
+    #check:checked~.icons #mobile-menu-icon{
+        display: none;
+    }
+
+    .icons #mobile-close-icon{
+        display: none;
+    }
+
+    #check:checked~.icons #mobile-close-icon{
+        display: block;
+    }
+
+    .list{
+        position: absolute;
+        top:5%;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: .3s ease;
+    }
+   
+    #check:checked~.button{
+        height: 20rem;
+    }
+    #check:checked~.list{
+        height: 22rem;
+    }
+
+    .list a {
+        display: block;
+        transition: .3s ease;
+        transform: translateY(-50px);
+    }
+
+    #check:checked~.list a{
+        transform: translateY(0);
+    }
+}
+/* -------------------------------------------------------- */
+
 /* --------------------sidebar end-------------------------------- */
 
 .headline{
