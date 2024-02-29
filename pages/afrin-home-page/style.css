@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url('img/bg.png');
+}
+#bg-img{
+    background-image: url('img/Vector (1).png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+/* .msg-bg{
+    background-image: url('img/Polygon\ 1.png');
+    background-repeat: no-repeat;
+    background-position: ;
+} */
+#geargo{
+    background-image: url('img/bg.png');
+    background-color: #181823;
+}
+.cardd{
+    display: flex;
+}
+.services{
+    background-image: url('img/bg.png');
+}
+.service-pare{
+    font-size: 20px;
+    font-weight: 375;
+    line-height: 35px;
+}
+.ncl-img{
+    margin-right: 20px;
+}
+.get{
+    background-image: url('img/bg.png');
+    background-color: #181823;
+}
+.started-card{
+    background-color: #2F2E41;
+}
+.round-img{
+    /* background-image: url('img/Rectangle 30.png');
+    background-repeat: no-repeat; */
+    /* background-color: #181823; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services, .client-bg, .testimonial, .carousel{
+    background-color: #181823;
+}
+.testimonial_container{
+    padding: 23px 0px;
+    margin: 52px 0px;
+}
+.img_testimonial{
+    width: 420px;
+    height: 320px;
+}
+
+
+button.btn.btn-primary.click {
+    width: 13%;
+    height: 45px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 3%;
+}
+/* .client_img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+} */
+ul.mb-0 {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    color: #ffc107;
+    font-size: 12px;
+}
+ul.mb-0 li {
+    padding: 3px;
+}
+.card-body p {
+    text-align: justify;
+}
+button.client_btn {
+    background: radial-gradient(#007bff, #007bff);
+}
+.card.crd-bg {
+    background: #2F2E41;
+}
