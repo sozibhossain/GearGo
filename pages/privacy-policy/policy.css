@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 
+
    
 }
 .navber{
@@ -46,6 +47,9 @@ ul li a{
     top:5%;
     display: none;
 
+}
+#bg{
+    background-image: url('img/bg.png');
 }
 /* -------------------------------------------------------------- */
 @media (max-width: 1173px) {
