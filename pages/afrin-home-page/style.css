@@ -16,6 +16,7 @@
     background-repeat: no-repeat;
     background-position: ;
 } */
+
 #geargo{
     background-image: url('img/bg.png');
     background-color: #181823;
@@ -84,15 +85,27 @@ ul.mb-0 {
 ul.mb-0 li {
     padding: 3px;
 }
-.card-body p {
-    text-align: justify;
+/* ======= card start ========== */
+.card-wrapper{
+    display: flex;
+ 
 }
-button.client_btn {
-    background: radial-gradient(#007bff, #007bff);
+.card{
+    margin: 0.5em;
+    width: calc(100%/3);
 }
-.card.crd-bg {
-    background: #2F2E41;
+.carousel-width{
+    width: 80%;
+    margin: auto;
 }
+.carousel-bg {
+    width: 100%;
+    background-color: #181823;
+}
+.card-body{
+    background-color: #181823;
+}
+/* ======= card end ========== */
 /* ============== footer area start ================== */
 
 .footer_para{
@@ -115,3 +128,19 @@ button.client_btn {
     display: flex;
 }
 /* ============== footer area End ================== */
+
+/* @media screen and (min-width: 568px) {
+    .card-wrapper{
+        display: flex;
+    }
+    .card{
+        margin: 0.5em;
+        width: calc(100%/3);
+    }
+}
+@media screen and (max-width: 567px) {
+    .card:not(:first-child){
+        display: none;
+    }
+    
+} */
