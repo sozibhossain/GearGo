@@ -106,6 +106,14 @@ ul.mb-0 li {
     background-color: #181823;
 }
 /* ======= card end ========== */
+
+/* ======== rounded-div start ========== */
+.rounded-div{
+    /* width: 44%; */
+    background-color: rgba(47, 46, 65, 0.25);
+    border-radius: 1% 44% 0 0;
+}
+/* ======== rounded-div end ========== */
 /* ============== footer area start ================== */
 
 .footer_para{
@@ -129,18 +137,3 @@ ul.mb-0 li {
 }
 /* ============== footer area End ================== */
 
-/* @media screen and (min-width: 568px) {
-    .card-wrapper{
-        display: flex;
-    }
-    .card{
-        margin: 0.5em;
-        width: calc(100%/3);
-    }
-}
-@media screen and (max-width: 567px) {
-    .card:not(:first-child){
-        display: none;
-    }
-    
-} */
