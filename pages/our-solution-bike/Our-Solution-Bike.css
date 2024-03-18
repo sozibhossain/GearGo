@@ -20,6 +20,7 @@
     background-size: cover;
     height: 616px;
     width: 100%;
+    
   }
 
   .banner-text{
@@ -36,12 +37,13 @@
 
 .contact-form{
    margin-top: 20%;
-   margin-left: 70%;
+   margin-left: 50%;
    width:400px;
    height: 277px;
    backdrop-filter: blur(20px);
    border-bottom:3px solid #E15352;
 }
+
 .form-1{
     width: 300px;
     height: 50px;
@@ -351,3 +353,10 @@ form p{
     display: flex;
 }
 /* ============== footer area End ================== */
+.bg-danger{
+    margin-top: 5%;
+}
+
+.slider{
+    margin-left: 25%;
+}
