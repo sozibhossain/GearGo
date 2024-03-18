@@ -10,38 +10,87 @@
     <link rel="stylesheet" href="mainProduct.css">
 </head>
 <body>
+
+    <!-- =============== Nabar Start ==================== -->
+
+<nav class="navbar bg-body-tertiary navbar-expand-lg shadow fixed-top">
+    <div class="container"> <img class="" src="img/Logo.png" alt="" style="width: 200px">
+      <!-- <a class="navbar-brand fs-1 fw-bold" href="#">Af<span class="text-primary">r</span>in</a> -->
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#header">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Our Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+             
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button type="button" class="btn text-bg-danger ps-6 rounded-pill" style="padding: 0 40px;"> Login</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- =============== Nabar End ==================== -->
    
     
     <!---header area start--------->
-    <div class="container  mt-5">
+
+    <div class="container  mt-5 pt-5">
         <div class="row">
-          <div class="col-sm-12 col-md-2 ">
+          <div class="col-sm-12 col-md-2 col-lg-2 ">
                 <img src="image/Product img.png" alt=""><br><br>
                 <img src="image/Product img.png" alt=""><br><br>
                 <img src="image/Product img.png" alt=""><br><br>
                 <img src="image/man.png" alt="">
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-md-4 col-lg-6">
              <img src="image/banner_p.png" alt="">
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="">
                     <h4>GearGo Micro with Vi Sim - 1 year</h4>
                     <button type="button" class="btn btn-secondary rounded-pill"><a href=""><i class="fa-solid fa-bicycle"></i> Scooter</a></button>
                     <button type="button" class="btn btn-secondary rounded-pill"><a href=""><i class="fa-solid fa-car"></i> Car</a></button>
                     <button type="button" class="btn btn-secondary rounded-pill"><a href=""><i class="fa-solid fa-motorcycle"></i> Bike</a></button>
                     <button type="button" class="btn btn-secondary rounded-pill"><a href=""><i class="fa-solid fa-truck"></i> Truck</a></button><br>
-                    <button type="button" class="btn btn-danger rounded-pill"><a href=""><i class="fa-solid fa-star"></i> Truck</a></button>
+                    <button type="button" class="btn btn-danger rounded-pill my-4"><a href=""><i class="fa-solid fa-star"></i> 4.5</a></button>
                     <h6>7,000+ Reviews</h6>
                     <a href="">Extra ₹3690 discount</a>
                     <a href="">Regular Price : ₹6880</a>                                                    
                     <p>Regular Price : ₹6880</p>
                     <a href="">*Inclusive of all taxes</a>
                 </div>
-                <div>
-                    <a href="">Choose SIM Operator</a><br>
-                    <button type="button" class="btn btn-danger rounded-pill"><a href=""><i class="fa-solid fa-star"></i> Airtel</a></button>
-                    <button type="button" class="btn btn-danger rounded-pill"><a href=""><i class="fa-solid fa-star"></i> Vodafone</a></button>
+                <div class="">
+                    <a href="" class="">Choose SIM Operator</a><br>
+                    <button type="button" class="btn btn-danger rounded-pill mt-3"><a href=""><i class="fa-solid fa-star"></i> Airtel</a></button>
+                    <button type="button" class="btn btn-danger rounded-pill mt-3"><a href=""><i class="fa-solid fa-star"></i> Vodafone</a></button>
         
                 </div>
                 <div>
@@ -59,6 +108,95 @@
         </div>
       </div>
     <!---header area end--------->
+
+    <!-------Add to cart area start-------->
+
+
+
+    <!-------Add to cart area end-------->
+
+
+    <!-------our clients love area start-------->
+
+<div class="client-area container text-center ">
+    <div class="client ">
+        <h1 class="py-4 text-danger">Why our clients love Us?</h1>
+        <img src="image/banner_m.png" alt="">
+
+        <p class="py-4">Onelap has made fleet management easy.It has helped me in monitoring my vehicle even from home. It is a must <br> buy product for every fleet owner
+        </p>
+    </div>
+</div>
+    <!-------our clients love area end-------->
+
+
+    <!-------Media Coverage area start-------->
+<div class="media container text-center">
+    <div class="">
+        <h1 class="py-4 text-danger">Media Coverage</h1>
+        <img src="image/logos.png" alt="">
+    </div>
+</div>
+    <!-------Media Coverage area end-------->
+
+   <!-------Best Sellers area start-------->
+<div class="container row py-4 mx-5 text-center ">
+    <h1 class="py-4 text-danger">Best Sellers</h1>
+    <div class="card " style="width: 16rem;">
+        <img src="image/product-b.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <p class="card-text ">GearGo Micro GPS Tracking Device</p>
+        </div>
+    </div>
+    <div class="card " style="width: 16rem;">
+        <img src="image/product-b.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <p class="card-text">GearGo Micro GPS Tracking Device</p>
+        </div>
+    </div>
+    <div class="card " style="width: 16rem;">
+        <img src="image/product-b.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <p class="card-text">GearGo Micro GPS Tracking Device</p>
+        </div>
+    </div>
+    <div class="card " style="width: 16rem;">
+        <img src="image/product-b.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <p class="card-text">GearGo Micro GPS Tracking Device</p>
+        </div>
+    </div>
+    <div class="card " style="width: 16rem;">
+        <img src="image/product-b.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <p class="card-text">GearGo Micro GPS Tracking Device</p>
+        </div>
+    </div>
+</div>
+    <!-------Best Sellers area end-------->
+
+    
+    <!-------Get started area start-------->
+
+    <div class="container text-center mb-5">
+        <div class="row">
+            <h1 class="py-4 text-danger">Get started</h1>
+          <div class="col-sm-12 col-md-6 col-lg-8 ">
+            <img src="image/map.png" alt="">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 ">
+            <input class="form-control my-3 form-control-lg" type="text" placeholder="Name" aria-label=".form-control-lg example">
+            <input class="form-control my-3" type="text" placeholder="Phone Number" aria-label="default input example">
+            <input class="form-control my-3" type="text" placeholder="Email" aria-label="default input example">
+            <input class="form-control my-3 form-control-sm" type="Massege" placeholder="Massege" aria-label=".form-control-sm example">
+            <button type="button" class="btn btn-danger rounded-pill" 
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 5rem; --bs-btn-font-size: .75rem;"><a href="" class="text-white"> Send</a></button>
+
+          </div>
+        </div>
+    </div>
+
+    <!-------Get started area end-------->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
