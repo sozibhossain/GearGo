@@ -1,3 +1,9 @@
 .hello{
 background-image: url('img/backgrone-img.png');
 }
+.input-arae p{
+display: flex;
+
+}
+
+
